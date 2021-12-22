@@ -47,7 +47,7 @@ detect.py를 거친 테스트용 데이터는 라벨링되어 yolov5\runs\detect
 ```
 # yolov5 폴더 내의 bus, zidane 이미지
 python detect.py --source ./data/images --weights ../best.pt
-# 영상
+# 방에서 직접 찍은 영상
 python detect.py --source ../test.mp4 --weights ../best.pt
 ```
 
