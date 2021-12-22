@@ -1,4 +1,4 @@
-# yolo_practice
+# coco128_yolo_practice
 모든 과정은 Anaconda Prompt에서 진행
 ___
 ## 준비
