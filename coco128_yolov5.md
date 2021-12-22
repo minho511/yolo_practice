@@ -50,6 +50,7 @@ python detect.py --source ../test.mp4 --weights ../best.pt
 ___
 ## 성능
 mAP(Mean average precision)
+![화면 캡처 2021-12-22 163127](https://user-images.githubusercontent.com/57162448/147053408-f12b5de8-9381-4c80-9d8f-c99f1d559934.png)
 
 
 ___
