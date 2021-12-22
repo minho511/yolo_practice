@@ -48,7 +48,8 @@ detect.py를 거친 테스트용 데이터는 라벨링되어 yolov5\runs\detect
 python detect.py --source ../test.mp4 --weights ../best.pt
 ```
 ___
-## 성능확인
+## 성능
+mAP(Mean average precision)
 
 
 ___
