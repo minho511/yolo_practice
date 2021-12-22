@@ -12,7 +12,7 @@ ___
   conda activate yolo_practice
   ```
   
-- Git clone & 필요한 라이브러리 설치
+- Git clone & 필요한 라이브러리 설치  
   클론한 파일들을 저장할 위치에서
   ```
   git clone https://github.com/ultralytics/yolov5
