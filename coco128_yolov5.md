@@ -22,8 +22,13 @@ ___
   ```
 - GPU (실패)  
   탑재되어있는 NVIDA GEFORCE GTX 1650를 사용하려고 하였으나 다음과같은 오류로 사용불가  
-  > warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
-    
+  ```
+  warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
+  ```
+  > **버전에 맞는 cuda, cudatoolkit 설치, pytorch 재설치 등 구글링한 방법들을 다양하게 해봤는데 해결이 안됩니다**
+
+
+  
   추가적으로 GPU사용이 가능한지 확인하는 방법으로 다음을 수행  
   ```python
   import torch
