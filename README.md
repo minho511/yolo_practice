@@ -43,6 +43,7 @@ python train.py --img 415 --batch 16 --epoch 50 --data ./data/coco128.yaml --cfg
 ___
 ## 결과확인
 yolov5의 detect.py에 테스트용 데이터와 이전 단계에서 학습한 후 도출된 최고성능의 가중치를 매개변수로 줌
+detect.py를 거친 테스트용 데이터는 라벨링되어 yolov5\runs\detect에 저장된다.
 ```
 python detect.py --source ../test.mp4 --weights ../best.pt
 ```
