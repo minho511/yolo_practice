@@ -33,10 +33,10 @@ ___
 
 ## 데이터
 git clone한 폴더에 있는 coco128.yaml을 통해 `COCO128` 데이터셋을 다운받아 사용
-(https://github.com/ultralytics/yolov5/blob/master/data/coco128.yaml)
 ___
 ## 모델학습
-yolov5의 train.py를 실행함과 동시에 이미지 사이즈, 배치 사이즈, 에포크, 데이터 위치, 사용할 모델을 매개변수로 줌
+yolov5의 train.py를 실행함과 동시에 이미지 사이즈, 배치 사이즈, 에포크, 데이터 위치, 사용할 모델을 매개변수로 준다.  
+PC 성능과 시간을 생각하여 가장 가벼운 모델인 yolov5s사용
 ```
 python train.py --img 415 --batch 16 --epoch 50 --data ./data/coco128.yaml --cfg ./models/yolov5s.yaml --name coco128test
 ```
@@ -49,3 +49,9 @@ python detect.py --source ../test.mp4 --weights ../best.pt
 ```
 ___
 ## 성능확인
+
+
+___
+### 참고
+- coco128 데이터셋 https://github.com/ultralytics/yolov5/blob/master/data/coco128.yaml
+- https://github.com/ultralytics/yolov5
