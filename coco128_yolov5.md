@@ -64,5 +64,3 @@ ___
 ### 참고
 - coco128 데이터셋 https://github.com/ultralytics/yolov5/blob/master/data/coco128.yaml
 - https://github.com/ultralytics/yolov5
-- 성능평가 https://lynnshin.tistory.com/48
-
