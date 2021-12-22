@@ -1,5 +1,5 @@
 # yolo_practice
-개인PC에서 yolo 사용해보기
+모든 과정은 Anaconda Prompt에서 진행
 ___
 ## 준비
 - 가상환경
