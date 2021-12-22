@@ -51,8 +51,9 @@ python detect.py --source ./data/images --weights ../best.pt
 python detect.py --source ../test.mp4 --weights ../best.pt
 ```
 
-<img src="https://user-images.githubusercontent.com/57162448/147060757-c9d1dff0-f21d-435a-8715-336f3ae9907a.jpg" height = 300> <img src="https://user-images.githubusercontent.com/57162448/147060760-93aa80ec-104e-4d4b-8ec0-7027f14b0986.jpg" height = 300>
-
+<img src="https://user-images.githubusercontent.com/57162448/147060757-c9d1dff0-f21d-435a-8715-336f3ae9907a.jpg" height = 300> <img src="https://user-images.githubusercontent.com/57162448/147062275-1052bac6-195f-4bad-90ea-8c47df2edb6f.gif" height = 300>
+<img src="https://user-images.githubusercontent.com/57162448/147060760-93aa80ec-104e-4d4b-8ec0-7027f14b0986.jpg" height = 300>  
+(업로드를 위해 영상은 gif파일로 만들때 FPS를 낮춤)
 ___
 ## 성능
 mAP(Mean average precision)
