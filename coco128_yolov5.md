@@ -45,8 +45,14 @@ ___
 yolov5의 detect.py에 테스트용 데이터와 이전 단계에서 학습한 후 도출된 최고성능의 가중치를 매개변수로 줌
 detect.py를 거친 테스트용 데이터는 라벨링되어 yolov5\runs\detect에 저장된다.
 ```
+# yolov5 폴더 내의 bus, zidane 이미지
+python detect.py --source ./data/images --weights ../best.pt
+# 영상
 python detect.py --source ../test.mp4 --weights ../best.pt
 ```
+
+<img src="https://user-images.githubusercontent.com/57162448/147060757-c9d1dff0-f21d-435a-8715-336f3ae9907a.jpg" height = 300> <img src="https://user-images.githubusercontent.com/57162448/147060760-93aa80ec-104e-4d4b-8ec0-7027f14b0986.jpg" height = 300>
+
 ___
 ## 성능
 mAP(Mean average precision)
