@@ -25,7 +25,6 @@ ___
   ```
   warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
   ```
-  > **버전에 맞는 cuda, cudatoolkit 설치, pytorch 재설치 등 구글링한 방법들을 다양하게 해봤는데 해결이 안됩니다**
 
 
   
